@@ -1,0 +1,34 @@
+{
+    "name": "project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/bundle.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack-dev-server --open"
+    },
+    "keywords": [],
+    "author": "Kevin",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "^0.28.11",
+        "file-loader": "^4.2.0",
+        "html-webpack-plugin": "^2.30.1",
+        "style-loader": "^0.18.2",
+        "url-loader": "^2.1.0",
+        "webpack": "^3.5.4",
+        "webpack-dev-server": "^2.7.1"
+    },
+    "dependencies": {
+        "antd": "^3.21.1",
+        "quill": "^1.3.6",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-router-dom": "^5.0.1",
+        "redux": "^4.0.4"
+    }
+}

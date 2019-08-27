@@ -1,0 +1,48 @@
+@import '~quill/dist/quill.snow.css';
+.top-header-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-icon {
+    font-size: 18px;
+}
+
+.toolbar-inner {
+    height: 100%;
+}
+
+.ql-toolbar.ql-snow {
+    padding: 0px;
+}
+
+.ql-block {
+    display: inline-block;
+    text-align: center;
+    padding: 0 6px 0px 5px;
+}
+
+.ql-block:not(:first-child)::after {
+    float: left;
+    width: 1px;
+    height: 18px;
+    margin-top: -16px;
+    margin-left: 0px;
+    background-color: #ddd;
+}
+
+.ql-block::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.ql-snow.ql-toolbar button,
+.ql-snow .ql-toolbar button {
+    margin-top: 11px;
+}
+
+.ql-snow .ql-picker {
+    margin-top: 11px;
+}

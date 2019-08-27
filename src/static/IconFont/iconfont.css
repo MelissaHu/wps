@@ -1,0 +1,37 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1566180758651'); /* IE9 */
+  src: url('iconfont.eot?t=1566180758651#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARAAAsAAAAACLgAAAPzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDOAqENIQCATYCJAMYCw4ABCAFhG0HYBuwBxEVnIPJviiM3QiFeRAiNls3d3dBoZJXVN+KTnRvPh8ET7xOfaf7khU5BFOKqLqABBMCbkSeZ3/5kU7MMsZ4cUqAq4RQ9tYAB8DWnCP1NyOi5oqyduTRPyT/xfTSjBIYkP9/Lqd3Vz0voPntLJexpu1FbeoFWBpQQGMNbGPAJZKYN4zdRBzGdgjgkQYRYAVPjQa4GEA/AaRHdue2uDEdpoQsuEonZ6pB5mDjWlOtywDMdr8vn4CQuGBhK2BonU4VO1DmbegzUseEa0ER+P1ZAGkWKJALAAPSI9fWCfUDuYDxjFhDMQBc2MmCt6F3rX/IcJijtPwhBGvhliq8Nfzh2VgoiAOQRbKkGlJ71/gYh8C7yTgMvJuCw4bPETgs+OzpUFbl9JgdANYC/1lSLrsi8HWxnhcd4/vDz243qL0Tp9w4D967bHxxt0HHnXDhybty73Jo+91IyYk73L49/OJlg8kxe9zL54apURpr/7xBuhXV6PJVw67NA/2Njzm/09C0YCGqccdianr3IrKtO/n4bt3lZfWT6edAPeYsPyGxM8neldK5rDeVN2rBTtdw9iTXVDu6sSS1M7ThajQtfcT8+WOONCuzfAbjcdLX+oj5G2VDNj3vSO2tylM0S+Z5eaq8uvHxndceWbOpYJSX7WvBppqJd6Xgjfjy7j75R71Q1IB/rTgr54oNszvJMZQqu/WhcUizerC9pza5ZtfQfJ5/q/Ti3J/KtF/MVn3+rFtpU3dtpcKtmUWcTZiCmmVtYl3Ghk/3l/wB9ahpZpPJ++sL/caZ+QbUMxc52LbnKtjOVb9C4ZrDtNKtL575pvNo647RRrc+f94Kb9MXvYlbFX2rQuH6rnYFK+xtO5D3ccST3/HMukTOWi1oNmEXSaASgDCFh5cBAH0OFQUA/W0VAwivc9S4vxBAYHPRs7vWuBLf3KAB4MEYTjfjCDP0w3uv/Nr8H4Bfs8yYQqB3jF4aZyGAg3/z+liAhwe8+gjE89CXIql2KgguSSFYBEgFxSUTaki5wCZIAXBwKQ0eOfHODpJAPoqYCCAHTQwIsayARTTHQInlFDWke7BJ5h8cYkXBo5EkLBkEcpDWHAWtYgD3h9bzRMioxku/YXwPVqJCl/pCWVo3VHmZDF9xQuljxPKJtSoBCY9wYXbDYWCYhTv0mifVuSkKyrtS7nlcGY6CVjEA7g+0niei1dWkPn/D+B6slJQ0WF8oS9s4UJFT1kCvsqlWybm0Xj6xRpX4XiQ8AhfWggMMMDDnd+rQa05q4ZsbCq4S1ZXl4yvGq1wHeICxjliiYsQWRwLsc29+RkYsrg0m4nLW93lDvJ08Drv3FHgnSLSrFQA=') format('woff2'),
+  url('iconfont.woff?t=1566180758651') format('woff'),
+  url('iconfont.ttf?t=1566180758651') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1566180758651#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.editor-icon-forbid:before {
+  content: "\e632";
+}
+
+.editor-icon-back:before {
+  content: "\ec09";
+}
+
+.editor-icon-cancel:before {
+  content: "\ec0a";
+}
+
+.editorundo:before {
+  content: "\e787";
+}
+
+.editorredo:before {
+  content: "\e788";
+}
+

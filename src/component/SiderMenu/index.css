@@ -1,0 +1,11 @@
+.sider-wrapper {
+    border-right: 1px solid #e5e5e5;
+    background: linear-gradient(to bottom, #f4f4f4, #f6f6f6);
+}
+
+.sider-action-button {
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px dashed #fff;
+}

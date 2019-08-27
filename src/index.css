@@ -1,0 +1,4 @@
+@import '~static/IconFont/iconfont.css';
+html {
+    font-family: 'editor' 'iconfont' !important;
+}

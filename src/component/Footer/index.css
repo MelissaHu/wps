@@ -1,0 +1,111 @@
+.footer-container {
+    width: 100%;
+    height: 518px;
+    background-color: #383e49;
+}
+
+.footer-container .footer-container-inner {
+    width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.footer-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links .fonter-list .fonter-title {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 19px;
+    font-weight: normal;
+}
+
+.footer-links .fonter-list .fonter-list-ul {
+    padding: 0px;
+}
+
+.footer-links .fonter-list .fonter-list-ul li a {
+    color: #999;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.footer-links .fonter-list .fonter-list-ul li a:hover {
+    opacity: .8;
+}
+
+.footer-contact {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-contact .contact-number ul li img {
+    width: 22px;
+    float: left;
+    margin: 5px 10px 0px 0px;
+}
+
+.footer-contact .contact-number ul li {
+    text-align: left;
+    height: 46px;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.footer-contact .contact-number ul li p {
+    float: left;
+    padding: 0px;
+}
+
+.footer-contact .contact-number ul li p span {
+    display: block;
+}
+
+.footer-contact .contact-number ul li .title {
+    font-size: 14px;
+    line-height: 14px;
+    color: #999;
+}
+
+.footer-contact .contact-number ul li .strong {
+    font-size: 20px;
+}
+
+.footer-contact .contact-number ul li .detail {
+    color: #fff;
+}
+
+.footer-contact .contact-code-box {
+    width: 125px;
+    height: 125px;
+}
+
+.footer-contact .contact-code-box p {
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.copy-right {
+    width: 100%;
+    height: 88px;
+    line-height: 88px;
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #666;
+    text-align: left;
+}
