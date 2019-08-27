@@ -2,10 +2,23 @@ import React, { Component } from 'react';
 import {Layout,Icon,Avatar} from 'antd'
 import SiderMenu from '../component/SiderMenu'
 import './DocLayout.css'
+import {NavLink } from 'react-router-dom'
+
 const {Header,Content,Sider} = Layout;
 
 
 class DocLayout extends Component {
+    constructor(props){
+        super(props)
+        this.state={
+            myName:''
+        }
+    }
+    componentDidMount(){
+        this.setState({
+            myName:localStorage.getItem("userName")
+         })
+    }
     render() {
         return (
         <div>
@@ -16,7 +29,8 @@ class DocLayout extends Component {
         <div className="right-header">
             <span className="right-header-item"><Icon type="search" style={{fontSize:'16px'}}/></span>
             <span className="right-header-item"><Icon type="bell" style={{fontSize:'16px'}}/></span>
-            <span className="right-header-item"><Avatar style={{ backgroundColor: '#1890ff' }} icon="user" size="8"/></span>
+            <span className="right-header-item">Hi, {this.state.myName}</span>
+            <span className="right-header-item">  <NavLink exact  to='/login' ><Avatar style={{ backgroundColor: '#1890ff' }} icon="user" size="8"/></NavLink></span>
         </div>
         </div>
         </Header>

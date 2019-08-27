@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import { HashRouter as Router,Route,Switch} from "react-router-dom"
+import { BrowserRouter as Router,Route,Switch} from "react-router-dom"
 import BasicLayout from '../layouts/BasicLayout'
 import DocLayout from '../layouts/DocLayout'
 import Home from '../pages/Static/home'
@@ -8,6 +8,7 @@ import Price from '../pages/Static/price'
 import Help from '../pages/Static/help'
 import Dashboard from '../pages/Doc/dashboard'
 import Editor from '../pages/Doc/editor'
+import Login from '../pages/Login/login'
 import App from '../app'
  class BasicRouter extends Component{
   // <BasicLayout component={BasicLayout}>
@@ -32,10 +33,11 @@ import App from '../app'
          <Router style={{height:'100%'}}>
          <App component={App}>
          <Switch> 
-          <DocLayout exact path="/" component={DocLayout}>
-                <Route path="/" name='文档' component={Dashboard} />
+          <DocLayout exact path="/doc" component={DocLayout}>
+                <Route path="/doc" name='文档' component={Dashboard} />
           </DocLayout> 
           <Editor  exact path="/editor" name='编辑文档' component={Editor} ></Editor>
+          <Route  exact path="/" name='编辑文档' component={Login} ></Route>
           </Switch> 
           </App>
           </Router>

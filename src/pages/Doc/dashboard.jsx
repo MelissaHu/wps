@@ -25,7 +25,7 @@ class Dashboard extends Component{
         componentDidMount(){
           let newArticle = JSON.parse(localStorage.getItem('allArticle'))
           let len = this.state.dataSource.length;
-         
+        
           let newItem = {
             key:`${len+1}`,
             title:newArticle.title,
